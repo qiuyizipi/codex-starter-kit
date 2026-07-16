@@ -1,0 +1,3 @@
+display_name: Find Skills Safely
+short_description: Review one suitable capability with evidence and clear boundaries.
+default_prompt: Help me safely find one Skill, plugin, or MCP for my task and review its risks before I decide whether to install it.

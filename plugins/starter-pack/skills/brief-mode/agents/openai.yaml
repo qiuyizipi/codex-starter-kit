@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brief Mode"
+  short_description: "Keep answers focused and expand only when needed."
+  default_prompt: "Use $brief-mode to answer with the key point first and expand only when necessary."

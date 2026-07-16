@@ -1,0 +1,20 @@
+{
+  "name": "qiuyizipi-codex-starter-kit",
+  "interface": {
+    "displayName": "Qiuyizipi Codex Starter Kit"
+  },
+  "plugins": [
+    {
+      "name": "starter-pack",
+      "source": {
+        "source": "local",
+        "path": "./plugins/starter-pack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
