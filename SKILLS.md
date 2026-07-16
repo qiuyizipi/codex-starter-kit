@@ -1,8 +1,8 @@
 # Skill 完整清单
 
-本清单对应 `plugins/starter-pack/skills/` 中实际包含的 19 个额外安装 Skill；不包含 Codex 自带的 `.system` 内容，也排除了只适合特定工具场景的 Notion、浏览器自动化和截图 Skill。
+本清单对应 `plugins/core-pack/skills/` 与 `plugins/dev-pack/skills/` 中实际包含的 19 个额外安装 Skill；不包含 Codex 自带的 `.system` 内容，也排除了只适合特定工具场景的 Notion、浏览器自动化和截图 Skill。
 
-## 自研与个人工作流
+## core-pack：新手通用能力
 
 | Skill | 用途 |
 |---|---|
@@ -12,7 +12,7 @@
 | `define-goal` | 把模糊想法整理为可衡量的目标。 |
 | `find-skills-safe` | 安装前审查一个 Skill、插件或 MCP 的风险。 |
 
-## 开发流程与代码质量
+## dev-pack：开发流程与代码质量
 
 | Skill | 用途 |
 |---|---|
