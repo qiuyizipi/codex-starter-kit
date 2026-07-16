@@ -1,6 +1,6 @@
 # Skill 完整清单
 
-本清单对应 `plugins/starter-pack/skills/` 中实际包含的 21 个额外安装 Skill；不包含 Codex 自带的 `.system` 内容。
+本清单对应 `plugins/starter-pack/skills/` 中实际包含的 18 个额外安装 Skill；不包含 Codex 自带的 `.system` 内容，也排除了只适合特定工具场景的 Notion、浏览器自动化和截图 Skill。
 
 ## 自研与个人工作流
 
@@ -29,14 +29,6 @@
 | `verification-before-completion` | 宣称完成、修复或通过前先运行验证。 |
 | `writing-plans` | 多步骤任务开始前写清实施计划。 |
 | `writing-skills` | 创建、修改与验证 Codex Skill。 |
-
-## 工具与集成
-
-| Skill | 用途 |
-|---|---|
-| `notion-knowledge-capture` | 把对话和决策整理为 Notion 知识内容。 |
-| `playwright-interactive` | 通过持久浏览器会话进行界面交互与调试。 |
-| `screenshot` | 用户明确要求时截取桌面、窗口或屏幕区域。 |
 
 ## 使用前请注意
 

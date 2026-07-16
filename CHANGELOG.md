@@ -1,5 +1,10 @@
 # 更新记录
 
+## 0.2.1 — 2026-07-16
+
+- 移除仅适用于特定场景的 `notion-knowledge-capture`、`playwright-interactive` 与 `screenshot`。
+- 合集调整为 18 个更适合新手默认安装的通用工作流 Skill。
+
 ## 0.2.0 — 2026-07-16
 
 - 将合集扩展为 21 个额外安装的 Skill，不包含 Codex 自带 `.system` 内容。
