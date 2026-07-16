@@ -6,27 +6,33 @@
   "plugins": [
     {
       "name": "core-pack",
-      "source": {
-        "source": "local",
-        "path": "./plugins/core-pack"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
+      "source": { "source": "local", "path": "./plugins/core-pack" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Productivity"
     },
     {
-      "name": "dev-pack",
-      "source": {
-        "source": "local",
-        "path": "./plugins/dev-pack"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
+      "name": "code-quality-pack",
+      "source": { "source": "local", "path": "./plugins/code-quality-pack" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Developer Tools"
+    },
+    {
+      "name": "project-workflow-pack",
+      "source": { "source": "local", "path": "./plugins/project-workflow-pack" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    },
+    {
+      "name": "git-collaboration-pack",
+      "source": { "source": "local", "path": "./plugins/git-collaboration-pack" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "advanced-extra-pack",
+      "source": { "source": "local", "path": "./plugins/advanced-extra-pack" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
     }
   ]
 }

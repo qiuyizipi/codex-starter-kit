@@ -1,38 +1,61 @@
 # Skill 完整清单
 
-本清单对应 `plugins/core-pack/skills/` 与 `plugins/dev-pack/skills/` 中实际包含的 19 个额外安装 Skill；不包含 Codex 自带的 `.system` 内容，也排除了只适合特定工具场景的 Notion、浏览器自动化和截图 Skill。
+本仓库包含 19 个额外安装 Skill，分为五个可独立安装的包；不包含 Codex 自带的 `.system` 内容。
 
-## core-pack：新手通用能力
+## core-pack：新手基础包（5 项）
+
+建议所有新手先安装。它们改善回答清晰度、目标理解、上下文选择、项目记忆和安装前的安全判断。
 
 | Skill | 用途 |
 |---|---|
 | `archive-project-memory` | 将已确认的对话结论归档到项目记忆。 |
 | `brief-mode` | 默认简洁回答；需要时保留必要细节。 |
-| `context-engineering` | 在新任务、上下文跑偏或切换模块时，只加载真正相关的规则、文件与证据。 |
+| `context-engineering` | 在新任务或上下文跑偏时，只加载真正相关的规则、文件与证据。 |
 | `define-goal` | 把模糊想法整理为可衡量的目标。 |
 | `find-skills-safe` | 安装前审查一个 Skill、插件或 MCP 的风险。 |
 
-## dev-pack：开发流程与代码质量
+## code-quality-pack：代码质量包（5 项）
+
+适合已经开始写代码、希望减少错误和回归的人。
 
 | Skill | 用途 |
 |---|---|
-| `brainstorming` | 在实现前澄清需求与设计。 |
-| `dispatching-parallel-agents` | 将互不依赖的任务分配给并行代理。 |
-| `executing-plans` | 按已写好的实施计划执行并设置检查点。 |
-| `finishing-a-development-branch` | 在完成开发后选择合并、PR 或清理方式。 |
-| `receiving-code-review` | 严谨处理收到的代码审查意见。 |
-| `requesting-code-review` | 在合并前请求并组织代码审查。 |
-| `subagent-driven-development` | 用子代理协作执行相互独立的实现任务。 |
 | `systematic-debugging` | 遇到错误或异常行为时先系统定位原因。 |
-| `test-driven-development` | 实现功能或修复前先写测试。 |
-| `using-git-worktrees` | 需要隔离开发时使用 Git worktree。 |
-| `using-superpowers` | 在任务开始时识别和正确使用 Skill。 |
+| `test-driven-development` | 对关键行为和可复现 Bug 使用测试优先。 |
 | `verification-before-completion` | 宣称完成、修复或通过前先运行验证。 |
-| `writing-plans` | 多步骤任务开始前写清实施计划。 |
+| `receiving-code-review` | 严谨处理收到的代码审查意见。 |
+| `requesting-code-review` | 在合并前组织代码审查。 |
+
+## project-workflow-pack：项目流程包（3 项）
+
+适合新功能、实验方案或多文件任务；简单问题不会强制使用。
+
+| Skill | 用途 |
+|---|---|
+| `brainstorming` | 在有多个方案、风险或不明确目标时先澄清设计。 |
+| `writing-plans` | 为多步骤、跨文件或需交接的工作写合适粒度的计划。 |
+| `executing-plans` | 按已写好的实施计划执行并设置检查点。 |
+
+## git-collaboration-pack：Git 与协作包（4 项）
+
+适合多分支开发、GitHub 协作或可以拆分的大型实现任务。
+
+| Skill | 用途 |
+|---|---|
+| `using-git-worktrees` | 需要隔离开发时使用 Git worktree。 |
+| `finishing-a-development-branch` | 在完成开发后选择合并、PR 或清理方式。 |
+| `dispatching-parallel-agents` | 将互不依赖的任务分配给并行代理。 |
+| `subagent-driven-development` | 用子代理协作执行相互独立的实现任务。 |
+
+## advanced-extra-pack：进阶扩展包（2 项）
+
+适合想自行维护 Skill 或深入调整 Codex 工作流的人，新手无需安装。
+
+| Skill | 用途 |
+|---|---|
+| `using-superpowers` | 按任务复杂度选择真正相关的工作流 Skill。 |
 | `writing-skills` | 创建、修改与验证 Codex Skill。 |
 
-## 使用前请注意
+## 未来扩展
 
-这些 Skill 只是在特定请求下向 Codex 提供工作规则；它们不会仅因被复制到本地就自动运行。但部分 Skill 的适用任务可能涉及浏览器、Git、Notion、文件编辑或外部服务。执行前仍应查看请求范围，并按 Codex 的确认提示决定是否授权。
-
-每个目录都保留其原有的 `SKILL.md`、说明文件和已有许可证文件。请在再发布或修改公共 Skill 前查看对应来源与许可证。
+以后会增加 `research-pack` 等领域包。新包必须先经过实际使用、来源与许可证检查，再加入本仓库。
