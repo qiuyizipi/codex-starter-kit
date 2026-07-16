@@ -1,0 +1,4 @@
+interface:
+  display_name: Context Engineering
+  short_description: Keep Codex focused on the context that matters.
+  default_prompt: Use context-engineering to orient this task before doing substantial work.

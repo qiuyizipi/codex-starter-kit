@@ -1,6 +1,6 @@
 # Skill 完整清单
 
-本清单对应 `plugins/starter-pack/skills/` 中实际包含的 18 个额外安装 Skill；不包含 Codex 自带的 `.system` 内容，也排除了只适合特定工具场景的 Notion、浏览器自动化和截图 Skill。
+本清单对应 `plugins/starter-pack/skills/` 中实际包含的 19 个额外安装 Skill；不包含 Codex 自带的 `.system` 内容，也排除了只适合特定工具场景的 Notion、浏览器自动化和截图 Skill。
 
 ## 自研与个人工作流
 
@@ -8,6 +8,7 @@
 |---|---|
 | `archive-project-memory` | 将已确认的对话结论归档到项目记忆。 |
 | `brief-mode` | 默认简洁回答；需要时保留必要细节。 |
+| `context-engineering` | 在新任务、上下文跑偏或切换模块时，只加载真正相关的规则、文件与证据。 |
 | `define-goal` | 把模糊想法整理为可衡量的目标。 |
 | `find-skills-safe` | 安装前审查一个 Skill、插件或 MCP 的风险。 |
 

@@ -1,5 +1,11 @@
 # 更新记录
 
+## 0.2.2 — 2026-07-16
+
+- 将四项 Superpowers 流程规则改为三级模式：轻量任务直接处理，常规任务按需使用单项 Skill，复杂或高风险任务启用完整质量流程。
+- 保留调试与完成验证的质量底线，移除“每次对话都强制走完整流程”的要求。
+- 新增适配版 `context-engineering`，帮助 Codex 选择相关上下文而不拖慢简单任务。
+
 ## 0.2.1 — 2026-07-16
 
 - 移除仅适用于特定场景的 `notion-knowledge-capture`、`playwright-interactive` 与 `screenshot`。
