@@ -1,0 +1,7 @@
+interface:
+  display_name: "归档项目记忆"
+  short_description: "按总结指令归档当前项目已确认的结论、证据和待办事项。"
+  default_prompt: "使用 $archive-project-memory 总结本次对话，并更新当前项目的记忆文件。"
+
+policy:
+  allow_implicit_invocation: true
