@@ -37,13 +37,16 @@
 - 许可证：Apache License 2.0（副本位于该 Skill 文件夹的 `LICENSE.txt`）
 - 收录方式：当前快照，未在本仓库中修改核心规则。
 
-## 自研 Skill（3 项）
+## 自研并单独发布的 Skill（2 项）
 
 | Skill | 独立仓库 | 许可证 / 说明 |
 |---|---|---|
 | `brief-mode` | [codex-brief-mode](https://github.com/qiuyizipi/codex-brief-mode) | MIT，作者 `qiuyizipi` |
 | `find-skills-safe` | [codex-find-skills-safe](https://github.com/qiuyizipi/codex-find-skills-safe) | MIT，作者 `qiuyizipi` |
-| `archive-project-memory` | 暂无独立仓库 | 本项目自研；当前未单独声明许可证，不应假定可在本仓库外再次发布。 |
+
+### 本地工作流配置（不计入上述两项）
+
+- `archive-project-memory`：2026-07-15 为“总结对话后归档到项目 `memory/` 与 Notion”建立的本地归档流程。它目前随新手包提供方便参考，但不是单独发布或维护的第三个自研 Skill，也没有在本轮新增或改动。
 
 ## 维护规则
 
