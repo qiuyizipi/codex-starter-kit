@@ -1,18 +1,25 @@
 # Skill 完整清单
 
-本仓库包含 19 个额外安装 Skill，分为五个可独立安装的包；不包含 Codex 自带的 `.system` 内容。
+本仓库包含 19 个额外安装 Skill，分为六个可独立安装的包；不包含 Codex 自带的 `.system` 内容。
 
-## core-pack：新手基础包（5 项）
+## core-pack：新手基础包（4 项）
 
 建议所有新手先安装。它们改善回答清晰度、目标理解、上下文选择、项目记忆和安装前的安全判断。
 
 | Skill | 用途 |
 |---|---|
-| `archive-project-memory` | 将已确认的对话结论归档到项目记忆。 |
 | `brief-mode` | 默认简洁回答；需要时保留必要细节。 |
 | `context-engineering` | 在新任务或上下文跑偏时，只加载真正相关的规则、文件与证据。 |
 | `define-goal` | 把模糊想法整理为可衡量的目标。 |
 | `find-skills-safe` | 安装前审查一个 Skill、插件或 MCP 的风险。 |
+
+## personal-workflow-pack：个人工作流包（1 项）
+
+仅适合明确需要将对话归档到项目 `memory/` 或 Notion 的人；新手不需要默认安装。
+
+| Skill | 用途 |
+|---|---|
+| `archive-project-memory` | 将已确认的对话结论归档到项目记忆，并按内容决定是否同步 Notion。 |
 
 ## code-quality-pack：代码质量包（5 项）
 
