@@ -1,3 +1,3 @@
 interface:
-  display_name: "Writing Plans"
-  short_description: "Turn specs into detailed multi-step implementation plans"
+  display_name: "编写实施计划"
+  short_description: "将需求整理为详细的多步骤实施计划"

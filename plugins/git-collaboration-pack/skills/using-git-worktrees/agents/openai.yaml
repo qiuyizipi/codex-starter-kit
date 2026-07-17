@@ -1,3 +1,3 @@
 interface:
-  display_name: "Using Git Worktrees"
-  short_description: "Create isolated git worktrees for parallel feature work"
+  display_name: "使用 Git 工作树"
+  short_description: "为并行开发创建隔离的 Git 工作树"

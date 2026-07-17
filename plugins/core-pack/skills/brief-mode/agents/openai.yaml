@@ -1,4 +1,4 @@
 interface:
-  display_name: "Brief Mode"
-  short_description: "Keep answers focused and expand only when needed."
-  default_prompt: "Use $brief-mode to answer with the key point first and expand only when necessary."
+  display_name: "简洁回答"
+  short_description: "保持回答聚焦，只在必要时展开"
+  default_prompt: "使用 $brief-mode 先给出重点；只有必要时才展开。"

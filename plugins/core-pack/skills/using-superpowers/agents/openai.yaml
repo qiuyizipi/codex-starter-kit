@@ -1,3 +1,3 @@
 interface:
-  display_name: "Using Superpowers"
-  short_description: "Establish how and when to use Superpowers skills"
+  display_name: "按需使用工作流"
+  short_description: "按任务规模选择合适的工作流"

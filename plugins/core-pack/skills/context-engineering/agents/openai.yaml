@@ -1,4 +1,4 @@
 interface:
-  display_name: Context Engineering
-  short_description: Keep Codex focused on the context that matters.
-  default_prompt: Use context-engineering to orient this task before doing substantial work.
+  display_name: "上下文管理"
+  short_description: "只加载真正影响任务的上下文"
+  default_prompt: "在处理这个较复杂任务前，使用 context-engineering 整理真正相关的上下文。"

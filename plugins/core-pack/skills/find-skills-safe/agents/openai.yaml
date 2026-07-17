@@ -1,3 +1,4 @@
-display_name: Find Skills Safely
-short_description: Review one suitable capability with evidence and clear boundaries.
-default_prompt: Help me safely find one Skill, plugin, or MCP for my task and review its risks before I decide whether to install it.
+interface:
+  display_name: "安全寻找 Skill"
+  short_description: "以证据和明确边界审查一个合适的能力"
+  default_prompt: "使用 $find-skills-safe 为我的任务安全寻找一个 Skill、插件或 MCP；先审查风险，再决定是否安装。"

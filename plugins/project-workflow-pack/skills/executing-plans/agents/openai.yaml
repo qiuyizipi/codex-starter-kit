@@ -1,3 +1,3 @@
 interface:
-  display_name: "Executing Plans"
-  short_description: "Execute written implementation plans with review checkpoints"
+  display_name: "按计划执行"
+  short_description: "按已写好的实施计划执行，并设置检查点"

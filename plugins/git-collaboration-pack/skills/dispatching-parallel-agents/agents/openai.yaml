@@ -1,3 +1,3 @@
 interface:
-  display_name: "Dispatching Parallel Agents"
-  short_description: "Split independent work across parallel agents"
+  display_name: "分派并行代理"
+  short_description: "将互不依赖的工作拆分为并行任务"

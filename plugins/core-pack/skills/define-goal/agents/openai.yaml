@@ -1,4 +1,4 @@
 interface:
-  display_name: "Define Goal"
-  short_description: "Shape clear measurable goals"
-  default_prompt: "Use $define-goal to turn this intention into a concrete, measurable goal before starting work."
+  display_name: "定义目标"
+  short_description: "将模糊想法整理为明确、可衡量的目标"
+  default_prompt: "在开始前，使用 $define-goal 将这个想法整理为明确、可衡量的目标。"
