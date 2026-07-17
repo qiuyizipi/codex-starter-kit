@@ -36,6 +36,7 @@
 
 完整名称、用途与注意事项请看 [SKILLS.md](SKILLS.md)。
 每个 Skill 的上游来源、许可证和本仓库改动请看 [SOURCES.md](SOURCES.md)。
+第三方再次分发所需的署名与许可证请看 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 让 AI 根据你的需求选择而不是全装，请看 [AI-SETUP.md](AI-SETUP.md)。
 
 ## 安装方法
