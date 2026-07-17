@@ -1,5 +1,5 @@
 {
   "name": "advanced-extra-pack",
-  "version": "0.1.0",
-  "description": "Advanced Codex skills for maintaining skills and selecting workflow rules."
+  "version": "0.2.0",
+  "description": "用于创建、修改和验证自定义 Skill 的进阶工具包。"
 }

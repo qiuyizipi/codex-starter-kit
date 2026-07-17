@@ -32,6 +32,7 @@
 |  | `context-engineering` | 只加载真正相关的规则、文件与证据。 |
 |  | `define-goal` | 把模糊想法整理为可衡量的目标。 |
 |  | `find-skills-safe` | 安装前审查一个 Skill、插件或 MCP 的风险。 |
+|  | `using-superpowers` | 按任务复杂度选择必要流程，避免小事过度规划。 |
 | `code-quality-pack` | `systematic-debugging` | 遇到错误时先系统定位原因。 |
 |  | `test-driven-development` | 对关键行为和可复现 Bug 使用测试优先。 |
 |  | `verification-before-completion` | 宣称完成前先运行验证。 |
@@ -44,8 +45,7 @@
 |  | `finishing-a-development-branch` | 完成开发后选择合并、PR 或清理方式。 |
 |  | `dispatching-parallel-agents` | 分派互不依赖的并行任务。 |
 |  | `subagent-driven-development` | 用子代理协作执行独立的实现任务。 |
-| `advanced-extra-pack` | `using-superpowers` | 按任务复杂度选择必要的工作流。 |
-|  | `writing-skills` | 创建、修改与验证 Codex Skill。 |
+| `advanced-extra-pack` | `writing-skills` | 创建、修改与验证 Codex Skill。 |
 | `personal-workflow-pack` | `archive-project-memory` | 将已确认的结论归档到项目记忆，按需同步 Notion。 |
 
 ## 可选功能：显示 Skill 使用情况

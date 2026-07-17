@@ -1,5 +1,5 @@
 {
   "name": "git-collaboration-pack",
   "version": "0.1.0",
-  "description": "Codex skills for Git workflows, branches, and parallel implementation work."
+  "description": "用于 Git 分支、协作开发和并行任务的进阶 Skill 包。"
 }

@@ -1,5 +1,5 @@
 {
   "name": "code-quality-pack",
   "version": "0.1.0",
-  "description": "Codex skills for testing, debugging, verification, and code review."
+  "description": "用于测试、排错、验证和代码审查的编程质量 Skill 包。"
 }
