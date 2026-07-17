@@ -41,7 +41,7 @@
 第三方再次分发所需的署名与许可证请看 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 第三方 Skill 与上游版本的关系、四项 Superpowers 适配和未来更新规则请看 [UPSTREAM_STATUS.md](UPSTREAM_STATUS.md)。
 让 AI 根据你的需求选择而不是全装，请看 [AI-SETUP.md](AI-SETUP.md)。
-想在回复中看到实际使用的 Skill 及中文用途，可按需启用 [OPTIONAL-FEATURES.md](OPTIONAL-FEATURES.md)；它默认关闭，也不会改动本仓库的任何 Skill。
+想在回复中看到实际使用的 Skill 及中文用途，可按需启用 [OPTIONAL-FEATURES.md](OPTIONAL-FEATURES.md)。新用户让 AI 按本仓库配置时，AI 会主动询问一次；未经同意不会改动任何 Skill。
 
 ## 安装方法
 
