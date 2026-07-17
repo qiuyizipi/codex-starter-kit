@@ -1,5 +1,7 @@
 # 给读取本仓库的 AI 的说明
 
+用户明确要求开启或关闭“Skill 使用提示”时，额外阅读 `OPTIONAL-FEATURES.md`。该功能默认关闭；不得因为仓库中存在说明就默认修改用户的本地 Skill。
+
 本仓库是面向 Codex 新手的可选 Skill 集合。用户要求“帮我安装”“推荐包”或“读取仓库后帮我配置”时，先阅读 `AI-SETUP.md`、`SKILLS.md` 与 `SOURCES.md`。
 
 按用户的实际用途选择最少必要的包：不要因为仓库中存在某个包就默认安装它，也不要默认安装全部包。`personal-workflow-pack` 仅在用户明确需要项目记忆或 Notion 归档时推荐。
