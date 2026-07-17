@@ -34,6 +34,7 @@
 - **进阶扩展**：维护 Skill 与调节工作流。
 
 完整名称、用途与注意事项请看 [SKILLS.md](SKILLS.md)。
+每个 Skill 的上游来源、许可证和本仓库改动请看 [SOURCES.md](SOURCES.md)。
 
 ## 安装方法
 
