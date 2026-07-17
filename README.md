@@ -1,5 +1,7 @@
 # Codex Starter Kit
 
+> 第一次使用？先看 [START-HERE.md](START-HERE.md)：三步让 Codex 帮你按需选择，而不是一次装完。
+
 这是 [qiuyizipi](https://github.com/qiuyizipi) 整理的 Codex Skill 配置包，面向刚注册 Codex、希望快速获得一套成熟工作流的新手。
 
 它收录的是维护者筛选后的 19 个顶层 Skill；**不包含**每个 Codex 本来就自带的 `.system` Skill，也不包含只适合 Notion、浏览器自动化或截图等特定场景的工具。你可以按需求选择安装包，不需要逐个寻找；不确定时让 AI 先按本仓库的规则推荐最少必要的组合。
