@@ -2,6 +2,7 @@
 
 本仓库是一个面向中文新手的筛选与分包集合，不是所有 Skill 的原创来源。
 安装或再次发布前，请以本文件、[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和对应上游仓库的最新许可证为准。
+上游快照、已知本地改动与更新流程请看 [UPSTREAM_STATUS.md](UPSTREAM_STATUS.md)。
 
 ## 第三方 Skill
 
@@ -46,7 +47,7 @@
 
 ### 本地工作流配置（不计入上述两项）
 
-- `archive-project-memory`：2026-07-15 为“总结对话后归档到项目 `memory/` 与 Notion”建立的本地归档流程。它目前随新手包提供方便参考，但不是单独发布或维护的第三个自研 Skill，也没有在本轮新增或改动。
+- `archive-project-memory`：2026-07-15 为“总结对话后归档到项目 `memory/` 与 Notion”建立的本地归档流程。它目前位于可选的 `personal-workflow-pack`，不是单独发布或维护的第三个自研 Skill，也没有在本轮新增或改动。
 
 ## 维护规则
 
