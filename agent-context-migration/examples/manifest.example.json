@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source": "WorkBuddy",
+  "target": "Codex",
+  "project": {
+    "source_path": "D:/Projects/example-project",
+    "target_path": "D:/Projects/example-project",
+    "display_name": "Example Project"
+  },
+  "sessions": [
+    {
+      "source_id": "example-session-id",
+      "source_file": "projects/example-project/example-session-id.jsonl",
+      "original_title": "Analyze the baseline",
+      "target_title": "Analyze the baseline - WorkBuddy",
+      "top_level": true,
+      "sha256": "record-after-generating-a-real-export"
+    }
+  ],
+  "memory": {
+    "project_index": "memory/MEMORY.md",
+    "global_context": "memory/global-context.md"
+  }
+}
+
