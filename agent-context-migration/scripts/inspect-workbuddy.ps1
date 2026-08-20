@@ -10,12 +10,15 @@ if (-not (Test-Path -LiteralPath $SourceRoot -PathType Container)) {
     throw "SourceRoot does not exist or is not a directory: $SourceRoot"
 }
 
+$sourceResolved = (Resolve-Path -LiteralPath $SourceRoot).Path.TrimEnd('\', '/')
+
 $files = Get-ChildItem -LiteralPath $SourceRoot -File -Recurse |
     Where-Object { $_.Extension -in @('.jsonl', '.md', '.txt') } |
     ForEach-Object {
         $hash = Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256
+        $relative = $_.FullName.Substring($sourceResolved.Length).TrimStart('\', '/')
         [ordered]@{
-            relative_path = [IO.Path]::GetRelativePath($SourceRoot, $_.FullName)
+            relative_path = $relative
             bytes = $_.Length
             sha256 = $hash.Hash.ToLowerInvariant()
             extension = $_.Extension
@@ -24,7 +27,7 @@ $files = Get-ChildItem -LiteralPath $SourceRoot -File -Recurse |
 
 $inventory = [ordered]@{
     generated_at = (Get-Date).ToUniversalTime().ToString('o')
-    source_root = (Resolve-Path -LiteralPath $SourceRoot).Path
+    source_root = $sourceResolved
     file_count = @($files).Count
     files = @($files)
 }
