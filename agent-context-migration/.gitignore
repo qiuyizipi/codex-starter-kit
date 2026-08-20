@@ -2,6 +2,7 @@
 *.db
 *.sqlite
 *.sqlite3
+migration-inventory.json
 .env
 .env.*
 workbuddy-history/
