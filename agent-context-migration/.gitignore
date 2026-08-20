@@ -1,0 +1,15 @@
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+workbuddy-history/
+local-project-memory/
+private/
+secrets/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
