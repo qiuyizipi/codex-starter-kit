@@ -11,7 +11,7 @@
 | [obra/superpowers](https://github.com/obra/superpowers) | 14 | MIT；`using-superpowers`、`brainstorming`、`writing-plans`、`test-driven-development` 有本地适配。 |
 | [Addy Osmani — context-engineering](https://github.com/addyosmani/context-engineering) | 1 | MIT；精简为 Codex 适配版。 |
 | [OpenAI — define-goal](https://github.com/openai/skills/tree/main/skills/.curated/define-goal) | 1 | Apache License 2.0；未改核心规则。 |
-| `brief-mode`、`find-skills-safe` | 2 | 作者 `qiuyizipi` 自研并单独发布，MIT。 |
+| `brief-mode`、`find-skills-safe`、`dont-trust-me` | 3 | 作者 `qiuyizipi` 自研，MIT。 |
 
 `archive-project-memory` 是本项目的本地归档工作流，不计入第三方或单独发布的第三个自研 Skill。
 
@@ -56,6 +56,12 @@ SOFTWARE.
 上游更新时：比较差异 → 选择性合入 → 保留本地适配 → 验证结构、JSON、链接与实际使用 → 在本文件记录上游 tag/commit、日期和处理结果。禁止用上游内容直接覆盖本仓库。
 
 ## 更新记录
+
+### 1.0.0 — 2026-11-23
+
+- 将作者自研的 `dont-trust-me`（独立复核防迎合）正式纳入 `core-pack`（总计 20 个 Skill）。
+- 新增 [docs/EXTERNAL_SKILLS.md](EXTERNAL_SKILLS.md)，统一记录科研与效率类外部 Skill 清单而不搬运第三方源码。
+- 新增跨端零依赖同步工具 `scripts/sync-skills.mjs`，支持一键审计与同步 Codex / Antigravity 两端 Skill 目录。
 
 ### 0.9.0 — 2026-07-17
 

@@ -24,13 +24,14 @@
 | 想维护自己的 Skill | 按需加 `advanced-extra-pack` |
 | 明确想整理项目记忆或同步 Notion | 才考虑 `personal-workflow-pack` |
 
-## 19 个 Skill 都是什么？
+## 20 个 Skill 都是什么？
 
 | 安装包 | Skill | 一句话用途 |
 |---|---|---|
 | `core-pack` | `brief-mode` | 默认简洁回答，需要时保留必要细节。 |
 |  | `context-engineering` | 只加载真正相关的规则、文件与证据。 |
 |  | `define-goal` | 把模糊想法整理为可衡量的目标。 |
+|  | `dont-trust-me` | 收到提醒时停止迎合，按证据独立复核争议方案。 |
 |  | `find-skills-safe` | 安装前审查一个 Skill、插件或 MCP 的风险。 |
 |  | `using-superpowers` | 按任务复杂度选择必要流程，避免小事过度规划。 |
 | `code-quality-pack` | `systematic-debugging` | 遇到错误时先系统定位原因。 |
@@ -68,8 +69,21 @@ C:\Users\你的用户名\.codex\skills\
 
 若已有同名 Skill，先备份或比较内容，不要直接覆盖自己的修改。
 
-## 维护信息
+## 跨端同步（Codex + Antigravity）
 
-来源、许可证、上游更新和历史记录都在 [docs/MAINTAINERS.md](docs/MAINTAINERS.md)。普通使用不需要阅读它。
+如果本机同时使用 Codex 与 Antigravity，可用内置零依赖脚本保持两端 Skill 一致（以 `~/.codex/skills` 为源，自动跳过 `.system` 与本地 `.env`）：
 
-`brief-mode` 与 `find-skills-safe` 是作者单独发布的自研 Skill；本仓库负责把它们与精选公共 Skill 一起提供给新手按需安装。
+```bash
+# 检查两端差异与元数据完整性
+node scripts/sync-skills.mjs status
+
+# 同步到 Antigravity（可先加 --dry-run 预览）
+node scripts/sync-skills.mjs sync
+```
+
+## 维护与外部清单
+
+- 来源、许可证、上游更新与变更记录：[docs/MAINTAINERS.md](docs/MAINTAINERS.md)
+- 日常配合使用的外部开源 Skill 清单（不搬运源码）：[docs/EXTERNAL_SKILLS.md](docs/EXTERNAL_SKILLS.md)
+
+`brief-mode`、`find-skills-safe` 与 `dont-trust-me` 为作者自研 Skill；本仓库负责把它们与精选公共 Skill 一起提供给新手按需安装。
